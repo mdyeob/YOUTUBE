@@ -16,7 +16,7 @@ public class VideoCountDao {
 		try {
 			String dbURL = "jdbc:mysql://localhost:3306/YOUTUBE?serverTimezone=UTC&useSSL=false";
 			String dbID = "root";
-			String dbPassword = "940330";
+			String dbPassword = "mysql123";
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
 
