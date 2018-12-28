@@ -39,6 +39,7 @@ public class UserDAO {
 
 			}
 			return -1; // 아이디가 없음
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
